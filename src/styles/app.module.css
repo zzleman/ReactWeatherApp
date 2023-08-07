@@ -1,0 +1,48 @@
+/* app.module.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search {
+  padding: 8px;
+  border: none;
+  background-color: whitesmoke;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 40px;
+  width: 350px;
+  font-size: 14px;
+}
+
+.searchBtn {
+  padding: 8px 20px;
+  background-color: coral;
+  border: none;
+  height: 55px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.error-message {
+  font-size: 45px;
+  color: red;
+  background-color: white;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
